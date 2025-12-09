@@ -167,8 +167,8 @@ For research: [Academic source with DOI]
 
 **Counters:**
 - Chapter counter: 13 chapters required
-- Code example counter: 80-120 examples
-- SVG diagram counter: 65-91 diagrams
+- Code example counter: 100+ examples
+- SVG diagram counter: 80+ diagrams
 - Quiz question counter: 5-8 per chapter
 
 ## 5. Reusable Intelligence Inventory – Bonus 1
@@ -247,10 +247,10 @@ For research: [Academic source with DOI]
 **SC-001**: Students can build and deploy ROS 2 nodes after Week 5 → Automated test validates Week 5 code examples execute successfully in Docker/Ubuntu 22.04
 **SC-002**: Students can simulate humanoid robots after Week 10 → Automated test validates Week 10 simulation examples run in Gazebo/Isaac Sim
 **SC-003**: Students can integrate LLMs after Week 13 → Automated test validates Week 13 conversational robotics examples execute successfully
-**SC-004**: All code examples execute with 100% success rate → CI pipeline validates all 80-120 code examples in Docker/Ubuntu 22.04
+**SC-004**: All code examples execute with 100% success rate → CI pipeline validates all 100+ code examples in Docker/Ubuntu 22.04
 **SC-005**: Students can modify/extend examples with 95% success → Manual validation of extensibility with automated validation of core functionality
 **SC-006**: 13 chapters with 4000-4500 words each → Automated word count validation for each chapter
-**SC-007**: 80-120 code examples and 65-91 diagrams → Automated counter validation
+**SC-007**: 100+ code examples and 80+ diagrams → Automated counter validation
 **SC-008**: 80% retention rate → Simulated user testing metrics
 **SC-009**: 80% of code/diagrams from subagents with 95% reuse → Subagent usage tracking and reuse validation
 **SC-010**: >90% Lighthouse score → Automated Lighthouse CI check

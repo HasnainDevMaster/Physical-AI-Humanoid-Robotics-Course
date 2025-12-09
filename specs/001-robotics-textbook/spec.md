@@ -92,11 +92,11 @@ Students need to learn to integrate Large Language Models with robotic systems b
 ### Functional Requirements
 
 - **FR-001**: System MUST provide 13 chapters aligned to a 13-week course structure with 4000-4500 words per chapter
-- **FR-002**: System MUST include 80-120 code examples across all chapters that execute in specified environments (Docker/Ubuntu 22.04)
+- **FR-002**: System MUST include 100+ code examples across all chapters that execute in specified environments (Docker/Ubuntu 22.04)
 - **FR-003**: Students MUST be able to build and deploy ROS 2 nodes for robot control after completing Week 5 content
 - **FR-004**: System MUST support simulation of humanoid robots in Gazebo and Isaac Sim after completing Week 10 content
 - **FR-005**: Students MUST be able to integrate LLMs with robotic systems after completing Week 13 content
-- **FR-006**: System MUST include 65-91 SVG diagrams (5-7 per chapter) for architecture diagrams, data flow, and kinematic chains
+- **FR-006**: System MUST include 80+ SVG diagrams (5-7 per chapter) for architecture diagrams, data flow, and kinematic chains
 - **FR-007**: System MUST provide assessment tools including 5-8 multiple choice quiz questions per chapter
 - **FR-008**: Students MUST be able to modify and extend all code examples provided in each chapter
 - **FR-009**: System MUST include hands-on exercises with step-by-step guided implementation for each chapter
@@ -136,7 +136,7 @@ Students need to learn to integrate Large Language Models with robotic systems b
 - **SC-004**: All code examples execute successfully in specified environments (Docker/Ubuntu 22.04) with 100% success rate on automated tests
 - **SC-005**: Students can modify and extend all code examples provided in each chapter with 95% success rate on automated extension challenges
 - **SC-006**: The textbook contains exactly 13 chapters with 4000-4500 words each, totaling 52,000-58,500 words of prose content
-- **SC-007**: The textbook includes 80-120 code examples and 65-91 SVG diagrams distributed across all chapters
+- **SC-007**: The textbook includes 100+ code examples and 80+ SVG diagrams distributed across all chapters
 - **SC-008**: Students complete the full 13-week course with 80% retention rate and positive feedback scores
 - **SC-009**: Subagents/skills generate 80% of code/diagrams with 95% reuse rate.
 - **SC-010**: Auth/personalization/translation functional on GitHub Pages with >90% Lighthouse score.
