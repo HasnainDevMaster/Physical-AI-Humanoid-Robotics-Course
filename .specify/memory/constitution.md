@@ -32,6 +32,9 @@ Code examples must execute without modification. All Python code follows ROS 2 H
 ### Accessibility and Documentation
 Required MDX frontmatter (title, sidebar_label, sidebar_position, description); SVG diagrams only with descriptive alt text; citations must link to official ROS 2/NVIDIA documentation.
 
+### AI Orchestration & Reusability
+Leverage Claude Code subagents and skills for modular content generation. Subagents MUST handle delegated tasks (e.g., code examples, diagrams) with clear handoffs. Skills MUST be reusable across chapters (e.g., ROS code templating). Bonuses integrate as optional site layers: auth for personalization, i18n for translation. All must maintain build time <60s and accessibility standards.
+
 ## Key Standards
 
 Chapter structure: Objectives → Concepts (1500-2000 words) → Code (800-1200 words) → Exercise → Quiz. Python: ROS 2 Humble, type hints, rclpy error handling. TypeScript: Docusaurus v3.9+, strict mode, Tailwind CSS. MDX: Required frontmatter (title, sidebar_label, sidebar_position, description). Diagrams: SVG only, descriptive alt text for accessibility. Citations: Link to official ROS 2/NVIDIA docs for technical claims.
