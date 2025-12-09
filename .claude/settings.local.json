@@ -12,7 +12,8 @@
       "Bash(powershell -Command \".specify/scripts/powershell/create-new-feature.ps1 -Json -ShortName ''robotics-textbook'' ''Physical AI & Humanoid Robotics Textbook''\")",
       "Bash(git commit -m \"feat(spec): add robotics textbook specification and PHR\n\n- Create comprehensive spec for Physical AI & Humanoid Robotics Textbook\n- Define 13 chapters covering ROS 2, simulation environments, and AI integration\n- Include user scenarios, functional requirements, and success criteria\n- Add quality checklist and PHR documentation\n- Update settings to allow git operations for branch detection\")",
       "Bash(gh pr create --title \"feat: add robotics textbook specification\" --body \"## Summary\n\n- Create comprehensive specification for Physical AI & Humanoid Robotics Textbook\n- Define 13 chapters covering ROS 2, simulation environments, and AI integration  \n- Include user scenarios, functional requirements, and success criteria\n- Add quality checklist and PHR documentation\n\n## Test plan\n\n- [ ] Review specification completeness\n- [ ] Verify all 13 chapters are properly defined\n- [ ] Confirm success criteria are measurable\n- [ ] Check quality checklist items\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\")",
-      "Bash(powershell -Command \".specify/scripts/powershell/setup-plan.ps1 -Json\")"
+      "Bash(powershell -Command \".specify/scripts/powershell/setup-plan.ps1 -Json\")",
+      "Bash(powershell -Command \".specify/scripts/powershell/check-prerequisites.ps1 -Json\")"
     ]
   }
 }

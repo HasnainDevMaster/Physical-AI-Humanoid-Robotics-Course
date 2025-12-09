@@ -261,10 +261,3 @@ For research: [Academic source with DOI]
 - Given student completed ROS 2 fundamentals, When works through Chapter 6, Then launches Gazebo worlds → Week 6 automated test
 - Given student completed all chapters, When implements Chapter 13, Then builds voice-controlled robot → Week 13 automated test
 
-## 8. ADRs Required Next
-
-- **ADR-001: Docusaurus Architecture Decision** - Document choice of Docusaurus v3.9+ over other static site generators for robotics textbook
-- **ADR-002: ROS 2 Humble Distribution Decision** - Document why ROS 2 Humble was chosen over other ROS 2 distributions
-- **ADR-003: AI Orchestration Pattern** - Document Claude Code subagent architecture for content generation
-- **ADR-004: Containerization Strategy** - Document Docker strategy for consistent code example execution
-- **ADR-005: Accessibility Compliance Approach** - Document approach to meet >95 accessibility standards
