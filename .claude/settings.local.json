@@ -5,7 +5,11 @@
       "Bash(git rev-parse --is-inside-work-tree)",
       "Bash(git add .)",
       "Bash(git rev-parse --abbrev-ref HEAD)",
-      "Bash(git remote add origin https://github.com/anthropics/claude-code.git)"
+      "Bash(git remote add origin https://github.com/anthropics/claude-code.git)",
+      "Bash(git fetch --all --prune)",
+      "Bash(powershell -Command \".specify/scripts/powershell/create-new-feature.ps1 -Json -Number 1 -ShortName ''robotics-textbook'' -FeatureDescription ''Physical AI & Humanoid Robotics Textbook''\")",
+      "Bash(powershell -Command \".specify/scripts/powershell/create-new-feature.ps1 -Number 1 -ShortName ''robotics-textbook''\")",
+      "Bash(powershell -Command \".specify/scripts/powershell/create-new-feature.ps1 -Json -ShortName ''robotics-textbook'' ''Physical AI & Humanoid Robotics Textbook''\")"
     ]
   }
 }
